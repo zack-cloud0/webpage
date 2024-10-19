@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Update header styling */
+header {
+    background-color: #001024; /* Light purple background */
+    padding: 0; /* Add some padding to give more space around the logo */
+    text-align: center; /* Center the content */
+    position: relative;
+}
+
+/* Style the logo */
+.logo {
+    height: 140px; /* Logo size */
+    width: auto; /* Maintain aspect ratio */
+    margin-bottom: 0; /* Space between logo and navigation */
+}
+
+/* Style the navigation */
+nav {
+    margin-top: 0; /* Add space above the navigation */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White for the text */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+/* General reset for body */
+body {
+    background-color: #fff; /* Ensure the whole background is white */
+    font-family: Arial, sans-serif;
+}
+
+/* Style container to adjust layout */
+.container {
+    max-width: 800px; /* Limit the width of the content to make it look more compact */
+    margin: auto;
+    text-align: center;
+}
+
+
+.hero {
+    background: #3107ca; /* Vivid blue */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero .btn {
+    background-color: #00509e; /* Vivid dark blue */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about, #services, #contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* General styles for the services section */
+.services-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    flex: 1;
+    margin: 10px;
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflow to create seamless background */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top part of the service container for the background image */
+.service-image {
+    height: 150px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Specific images for each service */
+.service1-image {
+    background-image: url('pics/t1.png') /* Replace with actual image path */
+}
+
+.service2-image {
+    background-image: url('pics/t3.png'); /* Replace with actual image path */
+}
+
+.service3-image {
+    background-image: url('pics/t2.png'); /* Replace with actual image path */
+}
+
+/* Bottom part for the text */
+.service-text {
+    background-color: #fff; /* White background for the text */
+    padding: 20px;
+    text-align: center;
+    color: #333; /* Default text color */
+}
+
+.service-text h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.service-text p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+
+footer {
+    background-color: #004080; /* Darker blue */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zardvark</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <img src="logo_new.png" alt="Zardvark Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Infrom the Past, Predict the Future</h2>
+            <p>Your trusted partner in delivering excellent machine learning solutions.</p>
+            <a href="#services" class="btn">Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a leading company providing top-notch machine learning solutions in customized tasks. With years of experience, we ensure client satisfaction and business success.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <div class="service-image service1-image"></div>
+                    <div class="service-text">
+                        <h3>Business Prediction and Analysis</h3>
+                        <p>Transform data into predictive business metrics for growth and fortune.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-image service2-image"></div>
+                    <div class="service-text">
+                        <h3>AI Research Platform</h3>
+                        <p>Build innovative AI platforms for customers to explore comprehensive alternative solutions.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <div class="service-image service3-image"></div>
+                    <div class="service-text">
+                        <h3>Customized Machine Learning Models</h3>
+                        <p>Reinvent enterprise operations with specialized ML models.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Email us at yr@zardvark.com or call us at (509) 768-2249.</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Zardvark LLC. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Effects Section -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    
+
+</body>
+</html>
